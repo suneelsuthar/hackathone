@@ -1,4 +1,4 @@
-import Model from './Model';
 import DropDown from './Dropdown';
-import Graph from './Graph'
-export {Model, DropDown,Graph};
+import Graph from './Graph';
+export {DropDown, Graph};
+// <<<<<<<<<<<<<<<<<<<<<< Export all components >>>>>>>>>>>>>>>>>>>>>//

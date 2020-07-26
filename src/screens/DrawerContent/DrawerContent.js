@@ -36,7 +36,7 @@ export default function DrawerContent(props) {
         </Drawer.Section>
       </View>
       <Drawer.Section style={styles.bottomDrawerSection}>
-        <Text style={styles._footer}>covid-19 tracker</Text>
+        <Text style={styles._footer}>COVID-19 TRACKER</Text>
       </Drawer.Section>
     </View>
   );

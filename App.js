@@ -1,5 +1,5 @@
 import React from 'react';
-import RootStackScreen from './src/config/config';
+import RootStackScreen from './src/config/Navigation';
 const App = () => {
   return <RootStackScreen />;
 };

@@ -37,18 +37,18 @@ export default class Graph extends React.Component {
         legendFontSize: 12,
       },
     ];
-   
+
     return (
-        <View style={{padding:10,marginTop:20}}>
-      <PieChart
-        data={data}
-        width={screenWidth}
-        height={210}
-        chartConfig={chartConfig}
-        accessor="population"
-        backgroundColor="transparent"
-        absolute
-      />
+      <View style={{padding: 10, marginTop: 20}}>
+        <PieChart
+          data={data}
+          width={screenWidth}
+          height={210}
+          chartConfig={chartConfig}
+          accessor="population"
+          backgroundColor="transparent"
+          absolute
+        />
       </View>
     );
   }

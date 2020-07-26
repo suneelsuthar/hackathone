@@ -11,12 +11,14 @@ import {
   HomeScreen,
   SplashScreen,
   TrackByCountry,
-} from './../screens';
+} from '../screens';
 import FeatherIcon from 'react-native-vector-icons/Feather';
 import {View, TouchableOpacity} from 'react-native';
 const RootStack = createStackNavigator();
 const Drawer = createDrawerNavigator();
 
+
+// header left home screen
 const HeaderLeft = () => {
   const [state, setState] = useState(false);
 
@@ -75,7 +77,7 @@ function RootDrawer() {
   );
 }
 
-const AuthStack = () => (
+const MainStack = () => (
   <NavigationContainer>
     <RootStack.Navigator>
       <RootStack.Screen
@@ -99,4 +101,4 @@ const AuthStack = () => (
     </RootStack.Navigator>
   </NavigationContainer>
 );
-export default AuthStack;
+export default MainStack;
